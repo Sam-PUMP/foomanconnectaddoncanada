@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="foomanconnect_xero_tax_rate_lineitem">
+        <observer name="fooman_connect_addon_canada_taxrate" instance="Fooman\ConnectAddonCanada\Observer\LookupTaxRate" />
+    </event>
+</config>
